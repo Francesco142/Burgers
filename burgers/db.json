@@ -1,0 +1,15 @@
+{
+    "Burgers": [
+      { "id": "1", "title": "ClassicBurger", "pane": "bianco", "carne": "bovino" ,"salsa": "mayonese" },
+      { "id": "2", "title": "VsCodeBurger", "pane": "integrale", "carne": "suino", "salsa": "ketchup" },
+      { "id": "3", "title": "VeganBurge", "pane": "bianco", "carne": "vegano" ,"salsa": "barbecue" }
+    ],
+
+    "Operators": [
+
+        { "name": "Pippo Feranil" },
+        { "name": "Francesco Giovannoli" }
+       
+    ]
+
+  }
