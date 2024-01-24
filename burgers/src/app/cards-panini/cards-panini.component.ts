@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 interface Burger{
 
@@ -32,6 +33,12 @@ export class CardsPaniniComponent implements OnInit{
   
       console.log("Panino Input: " , this.paninoInput);
 
+  }
+
+  constructor (private router: Router) {}
+
+  navigateToChild() {
+    this.router.navigate(['/panino', this.paninoInput.id]);
   }
 
 

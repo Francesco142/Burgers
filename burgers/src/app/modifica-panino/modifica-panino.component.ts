@@ -18,6 +18,7 @@ interface Burger {
   styleUrls: ['./modifica-panino.component.css']
 })
 export class ModificaPaninoComponent implements OnInit, OnDestroy {
+  
   paninoDaModificare: Burger = {
     id: 0,
     title: '',

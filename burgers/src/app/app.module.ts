@@ -14,6 +14,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import { ModificaPaninoComponent } from './modifica-panino/modifica-panino.component';
 import { PaginaInizialeasdComponent } from './pagina-inizialeasd/pagina-inizialeasd.component';
+import { OperatorPageComponent } from './operator-page/operator-page.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { PaginaInizialeasdComponent } from './pagina-inizialeasd/pagina-iniziale
     AppComponent,
     CardsPaniniComponent,
     ModificaPaninoComponent,
-    PaginaInizialeasdComponent
+    PaginaInizialeasdComponent,
+    OperatorPageComponent
   ],
   imports: [
     BrowserModule,

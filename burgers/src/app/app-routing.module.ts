@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CardsPaniniComponent } from './cards-panini/cards-panini.component';
 import { ModificaPaninoComponent } from './modifica-panino/modifica-panino.component';
 import { PaginaInizialeasdComponent } from './pagina-inizialeasd/pagina-inizialeasd.component';
+import { OperatorPageComponent } from './operator-page/operator-page.component';
 
 
 const routes: Routes = [
@@ -13,7 +14,7 @@ const routes: Routes = [
       component: ModificaPaninoComponent, // child route component that the router renders
     }
   ]},
-    {path: "ordini", component: ModificaPaninoComponent}//pezzo di michele e dypa
+    {path: "ordini", component: OperatorPageComponent}//pezzo di michele e dypa
 ];
 
 @NgModule({

@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 interface Burger{
 
@@ -10,8 +11,6 @@ interface Burger{
   salsa : string;
 
 }
-
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -20,6 +19,10 @@ interface Burger{
 
 export class AppComponent {
 
+  constructor (private router: Router) {}
 
+  navigateToNewPage() {
+    this.router.navigate(['/ordini']);
+  }
 
 }

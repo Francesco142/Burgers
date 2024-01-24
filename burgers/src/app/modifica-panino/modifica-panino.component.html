@@ -1,2 +1,25 @@
 <p>modifica-panino works!</p>
-<img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2017_21/2008221/170522-harambe-cincinnati-zoo-njs-1120p.jpg" alt="">
+
+<mat-card class="burger-order-card">
+    <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title> {{paninoDaModificare.title}} </mat-card-title>
+    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+    </mat-card-header>
+    <img class="immagine" mat-card-image src="https://www.zangaloro.it/images/174503" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+
+    <ul>
+        <li>{{paninoDaModificare.carne}}</li>
+        <li>{{paninoDaModificare.pane}}</li>
+        <li>{{paninoDaModificare.salsa}}</li>
+    </ul>
+
+    </mat-card-content>
+
+    <mat-card-actions>
+
+    <button mat-button></button>
+    </mat-card-actions>
+
+</mat-card>
