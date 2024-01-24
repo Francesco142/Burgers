@@ -20,21 +20,6 @@ interface Burger{
 
 export class AppComponent {
 
-  title = 'burgers';
 
-  // tipo never?
-  
-  panini : Burger[] = [];
-
-  constructor(private http: HttpClient) {
-
-
-     this.http.get<Burger[]>('http://localhost:8000/Burgers').subscribe( (burgers) => {
-
-     this.panini = burgers;
-
-    } )
-
-  }
 
 }

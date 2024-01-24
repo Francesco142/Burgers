@@ -6,24 +6,16 @@
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
       <mat-icon>menu</mat-icon>
     </button>
+    <a routerLink="/ordini">ordini</a>
   </mat-toolbar-row>
 </mat-toolbar>
 
 
+<router-outlet></router-outlet>
 
 <!-- app.component.html -->
-<main id="main">
 
-  <div class="lista-panini">
 
-    <ng-container *ngFor="let panino of panini">
 
-      <app-cards-panini [paninoInput]="panino"></app-cards-panini>
-
-    </ng-container>
-
-  </div>
-
-</main>
  
 

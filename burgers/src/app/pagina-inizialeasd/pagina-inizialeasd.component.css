@@ -1,0 +1,15 @@
+
+.lista-panini {
+
+    display: flex;
+    padding: 20px;
+
+}
+
+#main {
+
+    width: 90%;
+
+    margin: 0 auto;
+
+}

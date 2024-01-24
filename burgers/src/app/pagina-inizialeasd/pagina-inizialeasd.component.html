@@ -1,0 +1,17 @@
+<p>pagina-inizialeasd works!</p>
+
+<div id="main">
+
+    <div class="lista-panini">
+  
+      <ng-container *ngFor="let panino of panini">
+  
+        <app-cards-panini [paninoInput]="panino"></app-cards-panini>
+  
+      </ng-container>
+  
+    </div>
+  
+  </div>
+
+  <router-outlet></router-outlet>
