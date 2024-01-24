@@ -1,18 +1,29 @@
 
-
-  <h1> Beef Operators </h1>
-
-  <p>{{panini| json}}</p>
-
-
-
-  <!-- 
-
-  <ng-container *ngFor="let panino of panini "></ng-container> -->
-
-  <ol>
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <h1> Beef Operators </h1>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
 
 
 
-  </ol>
+<!-- app.component.html -->
+<main id="main">
+
+  <div class="lista-panini">
+
+    <ng-container *ngFor="let panino of panini">
+
+      <app-cards-panini [paninoInput]="panino"></app-cards-panini>
+
+    </ng-container>
+
+  </div>
+
+</main>
+ 
 
