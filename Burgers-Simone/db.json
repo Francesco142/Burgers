@@ -1,0 +1,85 @@
+{
+    "burgers": [
+        {
+            "id": 101,
+            "title": "Veggie Delight",
+            "meat": "Vegetarian",
+            "bread": "Whole Wheat",
+            "url": "https://www.zangaloro.it/images/175404",
+            "ingredients": [
+                "lettuce",
+                "tomato",
+                "onion",
+                "mayo"
+            ]
+        },
+        {
+            "id": 102,
+            "title": "Garden Goodness",
+            "meat": "Vegetarian",
+            "bread": "Multigrain",
+            "url": "https://www.zangaloro.it/images/175028",
+            "ingredients": [
+                "spinach",
+                "avocado",
+                "cucumber",
+                "hummus"
+            ]
+        },
+        {
+            "id": 201,
+            "title": "Grilled Chicken Bliss",
+            "meat": "Chicken",
+            "bread": "Brioche",
+            "url": "https://www.zangaloro.it/images/174503",
+            "ingredients": [
+                "grilled chicken",
+                "lettuce",
+                "tomato",
+                "garlic aioli"
+            ]
+        },
+        {
+            "id": 202,
+            "title": "Zesty Chicken Delight",
+            "meat": "Chicken",
+            "bread": "Sesame Seed",
+            "url": "https://www.zangaloro.it/images/174954",
+            "ingredients": [
+                "spicy chicken",
+                "pickles",
+                "red onion",
+                "chipotle mayo"
+            ]
+        },
+        {
+            "id": 301,
+            "title": "Classic Beef Masterpiece",
+            "meat": "Beef",
+            "bread": "Potato Bun",
+            "url": "https://www.zangaloro.it/images/174973",
+            "ingredients": [
+                "beef patty",
+                "cheddar cheese",
+                "lettuce",
+                "ketchup"
+            ]
+        },
+        {
+            "id": 302,
+            "title": "BBQ Bacon Bliss",
+            "meat": "Beef",
+            "bread": "Pretzel Bun",
+            "url": "https://www.zangaloro.it/images/175135",
+            "ingredients": [
+                "bacon",
+                "barbecue sauce",
+                "onion rings",
+                "smoked gouda"
+            ]
+        }
+
+    ],
+
+    "pippo": "ciao"
+}

@@ -1,0 +1,27 @@
+<p>modifica-panino works!</p>
+
+
+<mat-card class="burger-order-card">
+    <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title> {{paninoDaModificare.title}} </mat-card-title>
+    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+    </mat-card-header>
+    <img class="immagine" mat-card-image src="{{paninoDaModificare.url}}" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+
+    <ul>
+        <li>{{paninoDaModificare.meat}}</li>
+        <li>{{paninoDaModificare.bread}}</li>
+        <li>{{paninoDaModificare.ingredients}}</li>
+    </ul>
+
+    </mat-card-content>
+
+    <mat-card-actions>
+
+    <button mat-button></button>
+    
+    </mat-card-actions>
+
+</mat-card>

@@ -1,0 +1,16 @@
+<mat-card class="burger-card">
+    <mat-card-header>
+        <mat-card-title>{{burger.title}}</mat-card-title>
+        <mat-card-subtitle>{{burger.meat}}</mat-card-subtitle>
+    </mat-card-header>
+    <img style="margin-top: 10px;" mat-card-image src="{{burger.url}}" alt="Photo of a Shiba Inu">
+    <mat-card-content class="flex-container">
+        <p>- {{burger.bread}}</p>
+        <ng-container *ngFor="let ing of burger.ingredients">
+            <p>- {{ing}}</p>
+        </ng-container>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-flat-button color="accent">Order</button>
+    </mat-card-actions>
+</mat-card>

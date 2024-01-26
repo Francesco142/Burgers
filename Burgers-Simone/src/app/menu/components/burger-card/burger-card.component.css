@@ -1,0 +1,21 @@
+.burger-card {
+    max-width: 400px;
+}
+
+.mdc-card__actions {
+    justify-content: end;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 80px;
+    /* justify-content: space-around; */
+    margin: 20px 0 10px 0;
+    gap: 5px;
+}
+
+p {
+    margin: 0
+}
